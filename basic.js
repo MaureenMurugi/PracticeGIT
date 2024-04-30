@@ -54,7 +54,7 @@ console.log("Area:" + area);
 
 var perimeter = 2 * (length + width);
 console.log("Perimeter:" + perimeter);
-=======
+
 // Variables
 
 // DATA TYPES
@@ -79,7 +79,7 @@ console.log("Perimeter:" + perimeter);
 // console.log(blog);
 
 //Boolean
-let age = 24;
+let myAge = 24;
 console.log(age != 25); 
 // ==true != false - loose comparison
 // ===true !== false - strict comparison
