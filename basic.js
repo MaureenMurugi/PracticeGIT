@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Single line comment
 
 
@@ -97,4 +96,4 @@ let num2 = 12;
 
 comp = num1 <= num2 ;
 console.log(comp);
->>>>>>> 2aaed8fccf93aaa8162be7b89e38b37284a15455
+

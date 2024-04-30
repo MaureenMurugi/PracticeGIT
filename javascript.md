@@ -5,5 +5,4 @@
 - Variable naming does not start with numbers
 - Reserved keywords do not create the names
 - Make the name meaningful
-
 Methods - fxns associated with a particular data type
