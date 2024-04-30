@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Practice</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="basic.js"></script>
-    </head>
-    <body>
-        <h1>Hello, GIT</h1>
-        <p>The quick brown fox jumps over the lazy dog!</p>
+<head>
+    <title>Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="basic.js"></script>
+</head>
+<body>
+    <h1>Hello, GIT</h1>
+    <p>The quick brown fox jumps over the lazy dog!</p>
 
-        <div>
-            <h2>Karungai's work</h2>
-            <p>CLI allows users to perform various tasks,
-                 manage files, execute programs, and configure system settings directly from the command line.</p>
-        </div>
+    <div>
+        <h2>Karungai's work</h2>
+        <p>CLI allows users to perform various tasks,
+             manage files, execute programs, and configure system settings directly from the command line.</p>
+    </div>
 
-    </body>
-    <head>
-        <title>Area and Perimeter of a Rectangle</title>
-        <script>
-            function calculate () {
-                var length = 5; // Length of the rectangle
-                var width = 10; // Width of the rectangle
+    <h1>Rectangle Area and Perimeter</h1>
+    <p>Calculate the area of a rectangle given the width is 10 and the length is 5.</p>
+    <button onclick="calculate()">Calculate</button>
+    <br>
+    <div id="result"></div>
 
-                var Area = length * width; // Calculating th area
-                var Perimeter = 2 * ( length + width); // Calculating the perimeter
+    <script>
+        function calculate() {
+            var length = 5; // Length of the rectangle
+            var width = 10; // Width of the rectangle
 
-                document.getElementById("result").innerHTML = "Area: " + area + "<br>perimeter: " + Perimeter; // Display result
+            var area = length * width; // Calculating the area
+            var perimeter = 2 * (length + width); // Calculating the perimeter
 
-            }
-        </script>
-    </head>
-    <body>
-        <h1>Reactangle Area and Perimeter</h1>
-        <p>Calculate the area of a rectangle given the width is 10 and the length is 5.</p>
-        <button onclick="calculate()">calculate</button>
-        <br>
-        <div id="result"></div>
-    </body>
+            document.getElementById("result").innerHTML = "Area: " + area + "<br>Perimeter: " + perimeter; // Display result
+        }
+    </script>
+</body>
 </html>
